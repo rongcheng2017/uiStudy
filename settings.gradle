@@ -1,3 +1,4 @@
 rootProject.name = "UiStudy"
 include ':app'
 include ':advancedui'
+include ':nestedscroll'
