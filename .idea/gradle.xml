@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/advancedui" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/nestedscroll" />
+            <option value="$PROJECT_DIR$/toucheventdispatch" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
