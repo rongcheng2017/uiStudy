@@ -31,6 +31,8 @@ public class FishDrawable extends Drawable {
 
     private final float HEAD_RADIUS = 100;
     private float BODY_LENGTH = HEAD_RADIUS * 3.2f;
+    //找到鱼鳍长度
+    private float FIND_FINS_LENGTH = HEAD_RADIUS * 0.9f;
 
     public FishDrawable() {
         init();
@@ -51,9 +53,12 @@ public class FishDrawable extends Drawable {
     public void draw(@NonNull Canvas canvas) {
 
         float fishAngle = fishMainAngle;
+        //鱼头
         PointF headPoint = calculatePoint(middlePoint, BODY_LENGTH / 2, fishAngle);
+        canvas.drawCircle(headPoint.x, headPoint.y, HEAD_RADIUS, mPaint);
+        //右鱼鳍
+        PointF rightFinsPoint = calculatePoint(headPoint, FIND_FINS_LENGTH, fishAngle-110);
 
-        canvas.drawCircle(headPoint.x,headPoint.y,HEAD_RADIUS,mPaint);
     }
 
     /**
