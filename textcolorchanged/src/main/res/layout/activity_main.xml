@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.rong.cheng.photoview.PhotoView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:photo="@drawable/photo" />
+    <com.rong.cheng.textcolorchanged.SimpleColorChangeTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>

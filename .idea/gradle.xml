@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/nestedscroll" />
             <option value="$PROJECT_DIR$/photoview" />
             <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/textcolorchanged" />
             <option value="$PROJECT_DIR$/toucheventdispatch" />
           </set>
         </option>
