@@ -17,6 +17,10 @@ import androidx.appcompat.widget.AppCompatTextView
  * 2. 计算baseLine
  *      - canvas.drawText(text,width/2-textWidth/2,baseLine,mPaint)
  *
+ * 3. clipRect
+ *      - 实现两个Text，通过裁剪拼接成一个
+ *      - 提供修改百分比的属性
+ *
  * @date:  2021/6/15 6:15 下午
  *
  */
