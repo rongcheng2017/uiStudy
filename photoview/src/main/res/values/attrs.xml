@@ -3,5 +3,7 @@
     <declare-styleable name="PhotoView">
         <attr name="photo" format="reference" />
     </declare-styleable>
-
+    <declare-styleable name="MultiTouchEvent">
+        <attr name="img" format="reference"/>
+    </declare-styleable>
 </resources>

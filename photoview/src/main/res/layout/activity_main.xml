@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.rong.cheng.photoview.PhotoView
+    <com.rong.cheng.photoview.MultiTouchEvent
         android:layout_width="wrap_content"
-        app:photo="@drawable/photo"
+        app:img="@drawable/photo"
         android:layout_height="wrap_content"
         android:src="@drawable/photo" />
 
