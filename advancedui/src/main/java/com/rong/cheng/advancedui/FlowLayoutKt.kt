@@ -156,8 +156,10 @@ class FlowLayoutKt : ViewGroup {
                 val bottom = top + currentView.measuredHeight
                 currentView.layout(left, top, right, bottom)
                 curL = right + mHorizontalSpacing
-                currentView.setOnClickListener {
-                    mItemClickListener?.itemClick(currentView, i, j)
+                mItemClickListener?.apply {
+                    currentView.setOnClickListener {
+                        this.itemClick(it,i,j)
+                    }
                 }
             }
             //下一行的原始left和top

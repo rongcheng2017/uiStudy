@@ -16,7 +16,7 @@ import java.util.List;
 
 public class ViewPagerActivity extends AppCompatActivity {
     private static final String TAG = "Frc";
-    private String[] mTitles = new String[]{"大刀", "何丽丽", "战狼", "掌柜"};
+    private String[] mTitles = new String[]{"大刀", "何丽丽", "战狼", "乌合之众"};
     private ViewPager mViewPager;
     private FragmentPagerAdapter mAdapter;
     private TagFragment[] mFragments = new TagFragment[mTitles.length];

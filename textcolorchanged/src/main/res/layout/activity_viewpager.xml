@@ -19,7 +19,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             app:process="1"
-            app:text="关注"
+            app:text="大刀"
             app:textChangeColor="#ffff0000"
             app:textColor="#ff000000"
             app:textSize="18sp" />
@@ -29,7 +29,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:text="热点"
+            app:text="何丽丽"
             app:textChangeColor="#ffff0000"
             app:textColor="#ff000000"
             app:textSize="18sp" />
@@ -39,7 +39,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:text="推荐"
+            app:text="战狼"
             app:textChangeColor="#ffff0000"
             app:textColor="#ff000000"
             app:textSize="18sp" />
@@ -49,7 +49,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:text="长沙"
+            app:text="乌合之众"
             app:textChangeColor="#ffff0000"
             app:textColor="#ff000000"
             app:textSize="18sp" />
